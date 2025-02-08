@@ -1,4 +1,5 @@
 #Model loading
+pip install ultralytics
 from ultralytics import YOLO
 model = YOLO(r"C:\Users\ESAKKI\Desktop\fp\models\content\runs\detect\train\weights\best.pt")
 
