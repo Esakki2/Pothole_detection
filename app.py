@@ -1,7 +1,8 @@
 #Model loading
 
 from ultralytics import YOLO
-model = YOLO(r"C:\Users\ESAKKI\Desktop\fp\models\content\runs\detect\train\weights\best.pt")
+model = YOLO("/mount/src/pothole_detection/models/content/runs/detect/train/weights/best.pt")
+
 
 
 
