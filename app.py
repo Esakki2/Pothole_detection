@@ -11,7 +11,6 @@ model = YOLO(r"C:\Users\ESAKKI\Desktop\fp\models\content\runs\detect\train\weigh
 import io
 import streamlit as st
 from ultralytics import YOLO
-import cv2
 from PIL import Image
 import numpy as np
 
