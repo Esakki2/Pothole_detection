@@ -19,7 +19,7 @@ import numpy as np
 # Load the YOLOv8 model
 model_path=YOLO("models/content/runs/detect/train/weights/best.pt")
 
-model = YOLO("best.pt")
+model = YOLO(model_path)
 
 # Initialize session state for storing images
 if "uploaded_images" not in st.session_state:
