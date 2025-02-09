@@ -17,7 +17,11 @@ from PIL import Image
 import numpy as np
 
 # Load the YOLOv8 model
-model_path=YOLO("models/content/runs/detect/train/weights/best.pt")
+model_path = ("/mount/src/pothole_detection/models/content/runs/detect/train/weights/best.pt")
+
+if not model_path:
+    raise ValueError("Error: model_path is None or empty!")
+
 
 model = YOLO(model_path)
 
